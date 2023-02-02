@@ -4,7 +4,8 @@
 @import "layout/AppMain";
 @import "layout/AppHeader";
 @import "layout/AppSubHeader";
-@import "mixin";
+@import "partials/mixin";
+@import "partials/variabili";
 
 .mainContainer {
   width: 1444px;
