@@ -1,5 +1,4 @@
-// @use "../partials/variabili";
-// @import "../partials/variabili as *";
+@use "../partials/mixin" as *;
 
 .footer {
   background-color: $grey;
@@ -34,6 +33,10 @@
   font-weight: bold;
   color: $primary-blu;
   font-size: 21px;
+
+  @include respond(phone) {
+    font-size: 13px;
+  }
 }
 
 .follow {
