@@ -42,6 +42,11 @@ export default {
 </template>
 
 <style scoped>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .mainContainer {
   width: 1444px;
   margin: 0 auto;
