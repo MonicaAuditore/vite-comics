@@ -204,6 +204,7 @@ h3 {
   font-size: 15px;
   font-weight: 100;
   color: #9b9999;
+  cursor: pointer;
 }
 
 .columnLeft {
