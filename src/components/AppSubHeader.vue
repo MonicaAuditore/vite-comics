@@ -2,6 +2,7 @@
 import { createAssignmentExpression } from "@vue/compiler-core";
 
 export default {
+  name: "AppSubHeader",
   data() {
     return {
       logo: "dc-logo.png",
@@ -28,12 +29,6 @@ export default {
 </template>
 
 <style scoped>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
 .subHeader {
   background-color: black;
 }

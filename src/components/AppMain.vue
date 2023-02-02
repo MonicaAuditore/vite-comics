@@ -2,6 +2,7 @@
 import { createAssignmentExpression } from "@vue/compiler-core";
 
 export default {
+  name: "AppMain",
   data() {
     return {
       iconUno: "buy-comics-digital-comics.png",
@@ -132,12 +133,6 @@ export default {
 </template>
 
 <style scoped>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
 .main {
   background-color: #0282f9;
 }

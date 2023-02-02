@@ -2,6 +2,7 @@
 import { createAssignmentExpression } from "@vue/compiler-core";
 
 export default {
+  name: "AppFooter",
   data() {
     return {
       iconFacebook: "footer-facebook.png",
@@ -64,12 +65,6 @@ export default {
 </template>
 
 <style scoped>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
 .mainContainer {
   width: 1444px;
   margin: 0 auto;
