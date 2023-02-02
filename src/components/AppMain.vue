@@ -9,6 +9,8 @@ export default {
       iconTre: "buy-comics-subscriptions.png",
       iconQuattro: "buy-comics-shop-locator.png",
       iconCinque: "buy-dc-power-visa.svg",
+      bkImage: "footer-bg.jpg",
+      bigLogo: "dc-logo-bg.png",
     };
   },
   methods: {
@@ -24,7 +26,7 @@ export default {
     <div class="mainContainer">
       <div class="container">
         <div class="textContentBlu">
-          <ul>
+          <ul class="listaBlu">
             <li>
               <img
                 class="icon"
@@ -65,7 +67,62 @@ export default {
     <div class="mainContainer">
       <div class="container">
         <div class="textContent">
-          <h3>--> Content goes here</h3>
+          <div class="columnLeft">
+            <div class="columnUno">
+              <div class="menuUno">
+                <h3>DC COMICS</h3>
+                <ul class="listaSubMain">
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  <li>Movies</li>
+                  <li>TV</li>
+                  <li>Games</li>
+                  <li>Videos</li>
+                  <li>News</li>
+                </ul>
+              </div>
+              <div class="menuDue">
+                <h3>DC COMICS</h3>
+                <ul class="listaSubMain">
+                  <li>Characters</li>
+                  <li>Comics</li>
+                </ul>
+              </div>
+            </div>
+            <div class="columnDue">
+              <div class="menuTre">
+                <h3>DC COMICS</h3>
+                <ul class="listaSubMain">
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  <li>Movies</li>
+                  <li>TV</li>
+                  <li>Games</li>
+                  <li>Videos</li>
+                  <li>News</li>
+                </ul>
+              </div>
+            </div>
+            <div class="columnTre">
+              <div class="menuQuattro">
+                <h3>DC COMICS</h3>
+                <ul class="listaSubMain">
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  <li>Movies</li>
+                  <li>TV</li>
+                  <li>Games</li>
+                  <li>Videos</li>
+                  <li>News</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="columnRight">
+            <div class="bigLogo">
+              <img :src="getImagePath(`../assets/img/${bigLogo}`)" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -86,11 +143,12 @@ export default {
   margin: 0 auto;
 }
 
-.container {
-  height: 110px;
+.textContent {
+  display: flex;
+  justify-content: space-between;
 }
 
-ul {
+.listaBlu {
   line-height: 110px;
   list-style: none;
   display: flex;
@@ -98,7 +156,7 @@ ul {
   justify-content: space-between;
 }
 
-li {
+.listaBlu li {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -108,5 +166,39 @@ li {
 
 .icon {
   width: 40px;
+}
+
+.subMain {
+  background-color: rgb(43, 43, 43);
+  height: 455px;
+  overflow: hidden;
+  display: flex;
+  padding: 30px 0px;
+  position: relative;
+}
+
+h3 {
+  color: #fff;
+  padding: 20px 0px;
+}
+
+.listaSubMain {
+  list-style: none;
+  color: #fff;
+}
+
+.listaSubMain li {
+  padding: 5px 0px;
+}
+
+.columnLeft {
+  display: flex;
+  gap: 72px;
+}
+
+.columnRight img {
+  position: absolute;
+  top: -63px;
+  right: 273px;
 }
 </style>
