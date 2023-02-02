@@ -15,12 +15,33 @@
   }
 }
 
+/*
+$Breakpoint
+-phone
+-tab-port
+-tab-land
+big-desktop
+*/
+
 @mixin respond($breakpoint) {
-  @media (max-width: 600px) {
-    @if $breakpoint == phone {
-      @media (max-width: 600px) {
-        @content;
-      }
+  @if $breakpoint == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tabPort {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tabLand {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+  @if $breakpoint == bigScreen {
+    @media (min-width: 1800px) {
+      @content;
     }
   }
 }
