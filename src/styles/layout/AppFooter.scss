@@ -20,6 +20,15 @@
   border: 2px solid #0282f9;
 }
 
+.button {
+  transition: all 0.3s;
+
+  &:hover {
+    scale: 1.2;
+    transform: rotate(-5deg);
+  }
+}
+
 .followText {
   font-weight: bold;
   color: #0282f9;
@@ -32,4 +41,8 @@
   align-items: center;
   gap: 18px;
   list-style: none;
+
+  & img:hover {
+    scale: 1.1;
+  }
 }
