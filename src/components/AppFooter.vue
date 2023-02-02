@@ -93,12 +93,13 @@ export default {
   text-decoration: none;
   color: #fff;
   padding: 15px;
-  border: 2px solid #195994;
+  border: 2px solid #0282f9;
 }
 
 .followText {
   font-weight: bold;
-  color: #195994;
+  color: #0282f9;
+  font-size: 21px;
 }
 
 .follow {

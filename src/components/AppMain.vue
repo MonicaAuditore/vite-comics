@@ -200,6 +200,9 @@ h3 {
 
 .listaSubMain li {
   padding: 5px 0px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #9b9999;
 }
 
 .columnLeft {

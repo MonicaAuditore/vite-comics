@@ -60,6 +60,10 @@ export default {
   height: 110px;
 }
 
+.logo img {
+  width: 80px;
+}
+
 .menu {
   line-height: 110px;
 }
@@ -76,5 +80,6 @@ export default {
 
 .menu ul li:hover {
   box-shadow: inset 0em -0.3em #0282f9;
+  color: #0282f9;
 }
 </style>
