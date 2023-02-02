@@ -1,5 +1,5 @@
 .main {
-  background-color: #0282f9;
+  background-color: $primary-blu;
 }
 
 span {
@@ -20,7 +20,7 @@ span {
   justify-content: center;
 
   & li {
-    color: #fff;
+    color: $white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,17 +54,17 @@ span {
 
 .listaSubMain {
   list-style: none;
-  color: #fff;
+  color: $white;
 
   & li {
     padding: 5px 0px;
     font-size: 15px;
     font-weight: 100;
-    color: #9b9999;
+    color: $middle-grey;
     cursor: pointer;
 
     &:hover {
-      color: #f0f0f0;
+      color: $light-grey;
     }
   }
 }
