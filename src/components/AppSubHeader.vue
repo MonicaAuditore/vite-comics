@@ -28,27 +28,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-.subHeader {
-  background-color: black;
-}
-.mainContainer {
-  width: 1444px;
-  margin: 0 auto;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 110px;
-}
-
-h3 {
-  color: #fff;
-}
-
-.menu {
-  line-height: 110px;
-}
-</style>
+<style scoped></style>

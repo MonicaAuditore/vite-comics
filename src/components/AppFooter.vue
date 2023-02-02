@@ -64,44 +64,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-.mainContainer {
-  width: 1444px;
-  margin: 0 auto;
-}
-
-.footer {
-  background-color: #303030;
-  height: 110px;
-  display: flex;
-
-  align-items: center;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.button a {
-  text-decoration: none;
-  color: #fff;
-  padding: 15px;
-  border: 2px solid #0282f9;
-}
-
-.followText {
-  font-weight: bold;
-  color: #0282f9;
-  font-size: 21px;
-}
-
-.follow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 18px;
-  list-style: none;
-}
-</style>
+<style scoped></style>

@@ -1,1 +1,12 @@
 @import "partials/reset";
+@import "typography";
+@import "AppFooter";
+@import "AppMain";
+@import "AppHeader";
+@import "AppSubHeader";
+
+.mainContainer {
+  width: 1444px;
+  max-width: 100%;
+  margin: 0 auto;
+}

@@ -43,39 +43,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-.mainContainer {
-  width: 1444px;
-  margin: 0 auto;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 110px;
-}
-
-.logo img {
-  width: 80px;
-}
-
-.menu {
-  line-height: 110px;
-}
-
-.menu ul {
-  display: flex;
-}
-
-.menu ul li {
-  list-style: none;
-  padding: 0px 10px;
-  cursor: pointer;
-}
-
-.menu ul li:hover {
-  box-shadow: inset 0em -0.3em #0282f9;
-  color: #0282f9;
-}
-</style>
+<style scoped></style>
