@@ -20,7 +20,7 @@ export default {
     <div class="mainContainer">
       <div class="container">
         <div class="textContent">
-          <h3>--> Content goes here</h3>
+          <h3>Content goes here</h3>
         </div>
       </div>
     </div>

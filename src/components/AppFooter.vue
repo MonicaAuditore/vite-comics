@@ -75,7 +75,7 @@ export default {
 }
 
 .footer {
-  background-color: rgb(94, 94, 94);
+  background-color: #303030;
   height: 110px;
   display: flex;
 
@@ -92,12 +92,12 @@ export default {
   text-decoration: none;
   color: #fff;
   padding: 15px;
-  border: 2px solid blue;
+  border: 2px solid #195994;
 }
 
 .followText {
   font-weight: bold;
-  color: blue;
+  color: #195994;
 }
 
 .follow {
