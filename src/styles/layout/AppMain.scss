@@ -78,6 +78,7 @@ span {
   position: absolute;
   top: -63px;
   right: 273px;
+  z-index: -1;
 }
 
 // @include respond(phone) {
