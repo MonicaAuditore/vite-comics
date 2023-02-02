@@ -3,6 +3,7 @@
 @import "partials/reset";
 @import "partials/typography";
 @import "layout/AppFooter";
+@import "layout/AppUpMain";
 @import "layout/AppMain";
 @import "layout/AppHeader";
 @import "layout/AppSubHeader";
@@ -11,4 +12,8 @@
   width: 1444px;
   max-width: 100%;
   margin: 0 auto;
+
+  @include respond(tabLand) {
+    width: 846px;
+  }
 }

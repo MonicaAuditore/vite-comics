@@ -1,40 +1,11 @@
+@use "../partials/mixin" as *;
+
 .main {
   background-color: $primary-blu;
 }
 
 span {
   padding: 0px 10px;
-}
-
-.textContent {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0px;
-}
-
-.listaBlu {
-  padding: 40px 0px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  & li {
-    color: $white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 55px;
-    cursor: pointer;
-    transition: all 0.3s;
-    &:hover {
-      scale: 1.4;
-    }
-  }
-}
-
-.icon {
-  width: 40px;
 }
 
 .subMain {
@@ -80,7 +51,3 @@ span {
   right: 273px;
   z-index: -1;
 }
-
-// @include respond(phone) {
-//   font-size: 50%;
-// }

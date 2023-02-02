@@ -1,5 +1,5 @@
-// @use "../style/partials/variabili";
-// @import "variabili";
+// @use "../partials/variabili";
+// @import "../partials/variabili as *";
 
 .footer {
   background-color: $grey;

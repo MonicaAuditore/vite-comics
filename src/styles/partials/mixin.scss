@@ -9,11 +9,11 @@
 1800px                BIG DESKTOP
 */
 
-@mixin respond-phone {
-  @media (max-width: 600px) {
-    @content;
-  }
-}
+// @mixin respond-phone {
+//   @media (max-width: 600px) {
+//     @content;
+//   }
+// }
 
 /*
 $Breakpoint
