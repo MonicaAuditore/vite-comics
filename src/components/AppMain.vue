@@ -162,6 +162,7 @@ export default {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .icon {

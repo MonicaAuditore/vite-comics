@@ -32,14 +32,30 @@ export default {
           <ul class="follow">
             <li><span class="followText">FOLLOW US</span></li>
             <li>
-              <img :src="getImagePath(`../assets/img/${iconFacebook}`)" />
+              <a href="#"
+                ><img :src="getImagePath(`../assets/img/${iconFacebook}`)"
+              /></a>
             </li>
-            <li><img :src="getImagePath(`../assets/img/${iconTwitter}`)" /></li>
-            <li><img :src="getImagePath(`../assets/img/${iconYoutube}`)" /></li>
             <li>
-              <img :src="getImagePath(`../assets/img/${iconPinterest}`)" />
+              <a href="#"
+                ><img :src="getImagePath(`../assets/img/${iconTwitter}`)"
+              /></a>
             </li>
-            <li><img :src="getImagePath(`../assets/img/${iconLocator}`)" /></li>
+            <li>
+              <a href="#"
+                ><img :src="getImagePath(`../assets/img/${iconYoutube}`)"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <img :src="getImagePath(`../assets/img/${iconPinterest}`)"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img :src="getImagePath(`../assets/img/${iconLocator}`)"
+              /></a>
+            </li>
           </ul>
         </div>
       </div>

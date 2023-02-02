@@ -70,6 +70,7 @@ export default {
 .menu ul li {
   list-style: none;
   padding: 0px 10px;
+  cursor: pointer;
 }
 
 .menu ul li:hover {
