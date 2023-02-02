@@ -49,4 +49,11 @@
   & img:hover {
     scale: 1.1;
   }
+
+  @include respond(tab768) {
+  }
+
+  @include respond(phone) {
+    gap: 3px;
+  }
 }

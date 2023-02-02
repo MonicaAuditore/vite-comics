@@ -38,6 +38,34 @@ export default {
             <li>SHOP</li>
           </ul>
         </div>
+        <!-- hamburger menu -->
+        <nav>
+          <div class="navbar">
+            <div class="logoNav"></div>
+            <div class="containerNavUno nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+
+              <!-- <div class="menu-items">
+                <li><a href="#">CHARACTERS</a></li>
+                <li><a href="#">COMICS</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">COLLECTIBLES</a></li>
+                <li><a href="#">VIDEOS</a></li>
+                <li><a href="#">FANS</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">SHOP</a></li>
+              </div> -->
+            </div>
+          </div>
+        </nav>
+        <!-- fine -->
       </div>
     </div>
   </div>

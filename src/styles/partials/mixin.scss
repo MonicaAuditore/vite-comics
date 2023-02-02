@@ -20,7 +20,7 @@ $Breakpoint
 -phone
 -tab-port
 -tab-land
-big-desktop
+big-desktop 
 */
 
 @mixin respond($breakpoint) {
@@ -29,11 +29,19 @@ big-desktop
       @content;
     }
   }
+
+  @if $breakpoint == tab768 {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+
   @if $breakpoint == tabPort {
     @media (max-width: 900px) {
       @content;
     }
   }
+
   @if $breakpoint == tabLand {
     @media (max-width: 1200px) {
       @content;
