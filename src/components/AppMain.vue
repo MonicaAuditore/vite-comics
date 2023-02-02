@@ -23,47 +23,6 @@ export default {
 </script>
 
 <template>
-  <div class="main">
-    <div class="mainContainer">
-      <div class="container">
-        <div class="textContentBlu">
-          <ul class="listaBlu">
-            <li>
-              <img
-                class="icon"
-                :src="getImagePath(`../assets/img/${iconUno}`)"
-              /><span>DIGITAL COMICS</span>
-            </li>
-            <li>
-              <img
-                class="icon"
-                :src="getImagePath(`../assets/img/${iconDue}`)"
-              /><span>DC MERCHANDAISE</span>
-            </li>
-            <li>
-              <img
-                class="icon"
-                :src="getImagePath(`../assets/img/${iconTre}`)"
-              /><span>SUBSCRIPTION</span>
-            </li>
-            <li>
-              <img
-                class="icon"
-                :src="getImagePath(`../assets/img/${iconQuattro}`)"
-              /><span>COMIC SHOP LOCATOR</span>
-            </li>
-            <li>
-              <img
-                class="icon"
-                :src="getImagePath(`../assets/img/${iconCinque}`)"
-              /><span>DC POWER VISA</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="subMain">
     <img class="bk" :src="getImagePath(`../assets/img/${bkImage}`)" />
     <div class="mainContainer">
