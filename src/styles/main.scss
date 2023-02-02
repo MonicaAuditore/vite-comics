@@ -1,9 +1,10 @@
 @import "partials/reset";
-@import "typography";
-@import "AppFooter";
-@import "AppMain";
-@import "AppHeader";
-@import "AppSubHeader";
+@import "partials/typography";
+@import "layout/AppFooter";
+@import "layout/AppMain";
+@import "layout/AppHeader";
+@import "layout/AppSubHeader";
+@import "mixin";
 
 .mainContainer {
   width: 1444px;

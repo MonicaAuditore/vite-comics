@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+}
+
+/*
+0 -- 600px:           PHONE
+600 -- 900px:         TABLET PORTRAIN
+900px -- 1200px:      TABLET LANDSCAPE
+1200 -- 1800:         
+1800px                BIG DESKTOP
+*/
+
+@mixin respond-phone {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin respond($breakpoint) {
+  @media (max-width: 600px) {
+    @if $breakpoint == phone {
+      @media (max-width: 600px) {
+        @content;
+      }
+    }
+  }
+}
