@@ -3,6 +3,7 @@ import { createAssignmentExpression } from "@vue/compiler-core";
 
 export default {
   name: "AppMain",
+
   data() {
     return {
       iconUno: "buy-comics-digital-comics.png",

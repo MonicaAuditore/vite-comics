@@ -4,7 +4,9 @@ import { createAssignmentExpression } from "@vue/compiler-core";
 export default {
   name: "AppSubHeader",
   data() {
-    return {};
+    return {
+      imgBg: "../../assets/img/jumbotron.jpg",
+    };
   },
   methods: {
     getImagePath: function (imgPath) {
