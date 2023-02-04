@@ -4,9 +4,7 @@ import { createAssignmentExpression } from "@vue/compiler-core";
 export default {
   name: "AppSubHeader",
   data() {
-    return {
-      logo: "dc-logo.png",
-    };
+    return {};
   },
   methods: {
     getImagePath: function (imgPath) {
@@ -17,15 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="subHeader">
-    <div class="mainContainer">
-      <div class="container">
-        <div class="textContent">
-          <h3>Content goes here</h3>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div class="subHeader"></div>
 </template>
 
 <style scoped></style>

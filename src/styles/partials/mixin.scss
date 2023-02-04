@@ -53,3 +53,10 @@ big-desktop
     }
   }
 }
+
+@mixin bg($url) {
+  background-image: url($url);
+  // background-position: $position;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

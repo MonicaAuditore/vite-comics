@@ -1,14 +1,7 @@
+@use "../partials/mixin.scss" as *;
+
 .subHeader {
-  background-color: $black;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 110px;
-}
-
-.menu {
-  line-height: 110px;
+  @include bg("../../assets/img/jumbotron.jpg");
+  height: 300px;
+  background-color: aquamarine;
 }
